@@ -18,13 +18,13 @@ const routing = (
   <BrowserRouter>
     <Provider theme='light' style={{ "backgroundColor": "rgb(245, 245, 245)", "height": "calc=(100vh - 52px)" }}> 
       <Switch>
-        <Route path={process.env.PUBLIC_URL + "/"} component={App} />
-        <Route path={process.env.PUBLIC_URL +"/proto1"} component={Proto1} />
-        <Route path={process.env.PUBLIC_URL +"/proto2"} component={Proto2} />
-        <Route  path={process.env.PUBLIC_URL +"/proto3"} component={Proto3} />
-        <Route path={process.env.PUBLIC_URL +"/users"} component={Users} />
-        <Route path={process.env.PUBLIC_URL +"/contact"} component={Contact} />
-        <Route path={process.env.PUBLIC_URL +"/oldproto"} component={oldProto} />
+        <Route path="/" component={App} />
+        <Route path="/proto1" component={Proto1} />
+        <Route path="/proto2" component={Proto2} />
+        <Route path="/proto3" component={Proto3} />
+        <Route path="/users" component={Users} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/oldproto" component={oldProto} />
         <Route component={Notfound} />
       </Switch>
     </Provider>
