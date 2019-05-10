@@ -18,10 +18,10 @@ const routing = (
   <BrowserRouter>
     <Provider theme='light' style={{ "backgroundColor": "rgb(245, 245, 245)", "height": "calc=(100vh - 52px)" }}> 
       <Switch>
-        <Route exact path="/" component={App} />
-        <Route exact path="/proto1" component={Proto1} />
-        <Route exact path="/proto2" component={Proto2} />
-        <Route exact path="/proto3" component={Proto3} />
+        <Route exact path="https://rickvang.github.io//" component={App} />
+        <Route exact path="https://rickvang.github.io//proto1" component={Proto1} />
+        <Route exact path="https://rickvang.github.io//proto2" component={Proto2} />
+        <Route exact path="https://rickvang.github.io//proto3" component={Proto3} />
         <Route path="/users" component={Users} />
         <Route path="/contact" component={Contact} />
         <Route path="/oldproto" component={oldProto} />
