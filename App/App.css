@@ -1,0 +1,64 @@
+.Container-rRail { 
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  -o-box-sizing: border-box; 
+  box-sizing: border-box; 
+  /* adds animation for all transitions */ 
+  -webkit-transition: .25s ease-in-out; 
+  -moz-transition: .25s ease-in-out; 
+  -o-transition: .25s ease-in-out; 
+  transition: .25s ease-in-out; 
+  margin: 0; 
+  padding: 0; 
+  -webkit-text-size-adjust: none; 
+  } 
+  
+body {
+   margin: 0;
+   /* padding: 2rem; */
+   font-family: sans-serif;
+}
+
+.active {
+   color: red;
+}
+
+.coral3-Shell{
+   display: block;
+   position: relative;
+   width:100vw;
+   height: 52px;
+}
+
+.Container {
+   display: flex;
+   min-height: calc(100vh - 52px);
+   flex-direction: column;
+ }
+ 
+ .Container-body {
+   display: flex;
+   flex: 1;
+ }
+ .Container-content {
+   flex: 1;
+   padding:0 12px;
+ }
+ 
+ .Container-nav{
+    max-width: 56px;
+    border-right: 2px solid #EAEAEA;
+ } 
+ .Container-rRail {
+   /* 12em is the width of the columns */
+   flex: 0 0 12em;
+   max-width:256px;
+   word-wrap: normal;
+   overflow-wrap: break-word;
+   padding: 12px;
+ }
+ 
+ .Container-nav {
+   /* put the nav on the left */
+   order: -1;
+ }
