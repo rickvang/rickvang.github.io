@@ -22,10 +22,7 @@ const routing = (
         <Route path="/proto1" component={Proto1} />
         <Route path="/proto2" component={Proto2} />
         <Route path="/proto3" component={Proto3} />
-        <Route path="/users" component={Users} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/oldproto" component={oldProto} />
-        <Route component={Notfound} />
+        <Route component={App} />
       </Switch>
     </Provider>
   </BrowserRouter>
