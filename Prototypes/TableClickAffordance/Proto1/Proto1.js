@@ -15,8 +15,6 @@ class Proto1 extends Component {
     static contextType = StateContext;
     // debugger;
     render() {
-        // const [{ theme }, dispatch] = this.context;
-debugger
         return (
             <div id="proto1">
                 <ProtoShell></ProtoShell>

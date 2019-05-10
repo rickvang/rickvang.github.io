@@ -17,7 +17,7 @@ import Provider from '@react/react-spectrum/Provider';
 const routing = (
   <BrowserRouter>
     <Provider theme='light' style={{ "backgroundColor": "rgb(245, 245, 245)", "height": "calc=(100vh - 52px)" }}> 
-      {/* <Switch>
+      <Switch>
         <Route exact path="/" component={App} />
         <Route exact path="/proto1" component={Proto1} />
         <Route exact path="/proto2" component={Proto2} />
@@ -26,16 +26,7 @@ const routing = (
         <Route path="/contact" component={Contact} />
         <Route path="/oldproto" component={oldProto} />
         <Route component={Notfound} />
-      </Switch> */}
-      <li>
-        <Link to="/proto1">Proto1</Link>
-      </li>
-      <li>
-        <Link to="/proto2">Proto2</Link>
-      </li>
-      <li>
-        <Link to="/proto3">Proto3</Link>
-      </li>
+      </Switch>
     </Provider>
   </BrowserRouter>
 )
