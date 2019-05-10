@@ -19,9 +19,9 @@ const routing = (
     <Provider theme='light' style={{ "backgroundColor": "rgb(245, 245, 245)", "height": "calc=(100vh - 52px)" }}> 
       <Switch>
         <Route exact path="/" component={App} />
-        <Route path="/proto1" component={Proto1} />
-        <Route path="/proto2" component={Proto2} />
-        <Route path="/proto3" component={Proto3} />
+        <Route exact path="/proto1" component={Proto1} />
+        <Route exact path="/proto2" component={Proto2} />
+        <Route exact path="/proto3" component={Proto3} />
         <Route component={App} />
       </Switch>
     </Provider>
